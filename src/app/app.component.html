@@ -4,7 +4,13 @@
 <div class="search-form">
   <input #searchTerm (keyup.enter)="search(searchTerm.value)"/>
   <button (click)="search(searchTerm.value)">Search</button>
+  <!-- <label>Orbit Type  <input #orbitType (keyup.enter)="search(orbitType.value)"/>  </label>
+  <label>Satellite Type  <input #type (keyup.enter)="search(type.value)"/>  </label>  
+
+    <button (click)="search(orbitType.value, type.value)">Search</button> -->
 </div>  
+
+<orbit-counts></orbit-counts>
 
 
 

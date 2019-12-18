@@ -1,0 +1,24 @@
+.counts {
+    background: #34495E;
+    color: #fff;
+    border-radius: 5px;
+    width: 225px;
+}
+
+.counts div {
+    padding: 8px;
+}
+
+.counts span {
+    float: right;
+}
+
+
+table {
+    color: #111;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 12px 0;
+    min-width: 300px;
+    background: #dad8d8;
+  }
